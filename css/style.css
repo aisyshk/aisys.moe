@@ -1,0 +1,49 @@
+:root {
+    font-family: "Noto Sans";
+}
+
+body {
+    background-color: #261e22;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.placeholder {
+    background-image: url("https://images4.alphacoders.com/920/920077.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    filter: blur(3px);
+    z-index: 1;
+}
+
+.on-top {
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    z-index: 2;
+}
+
+.title {
+    font-size: 45px;
+    color: rgb(255, 208, 122);
+    font-weight: 900;
+    text-shadow: 0px 0px 5px black;
+}
+
+.subtitle {
+    color: rgb(176, 236, 255);
+    font-size: 24px;
+    text-shadow: 0px 0px 2px rgb(202, 160, 232);
+}
